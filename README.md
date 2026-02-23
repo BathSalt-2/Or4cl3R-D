@@ -58,35 +58,35 @@ Transform software development from manual coding to autonomous creation through
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
-   git clone https://github.com/your-org/autonomous-dev-platform.git
-   cd autonomous-dev-platform
-   \`\`\`
+   ```bash
+   git clone https://github.com/BathSalt-2/Or4cl3R-D.git
+   cd Or4cl3R-D
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
    # or
    yarn install
-   \`\`\`
+   ```
 
 3. **Environment Setup**
-   \`\`\`bash
+   ```bash
    cp .env.example .env.local
-   \`\`\`
+   ```
    
    Add your API keys:
-   \`\`\`env
+   ```env
    OPENAI_API_KEY=your_openai_api_key_here
    NEXT_PUBLIC_APP_URL=http://localhost:3000
-   \`\`\`
+   ```
 
 4. **Run the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
    # or
    yarn dev
-   \`\`\`
+   ```
 
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -95,7 +95,7 @@ Transform software development from manual coding to autonomous creation through
 
 ### Core Components
 
-\`\`\`
+```
 ├── app/                    # Next.js App Router
 │   ├── api/               # API routes for agent communication
 │   ├── dashboard/         # Main platform interface
@@ -106,7 +106,7 @@ Transform software development from manual coding to autonomous creation through
 │   └── ui/               # Base UI components
 ├── lib/                  # Utility functions and configurations
 └── types/                # TypeScript type definitions
-\`\`\`
+```
 
 ### Technology Stack
 
@@ -249,7 +249,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 🌐 Or4cl3 Ecosystem
+
+| Project | Description | Status |
+|---------|-------------|--------|
+| **[Or4cl3R-D](https://github.com/BathSalt-2/Or4cl3R-D)** | Autonomous Multi-Agent R&D Platform | 🟢 Active |
+| **[Or4cl3 AI Solutions](https://github.com/BathSalt-2)** | Core AI research & development | 🟢 Active |
+
+---
+
 <div align="center">
   <p><strong>Powered by Or4cl3 AI Solutions</strong></p>
   <p>Transforming the future of autonomous software development</p>
 </div>
+
+*⬡ Or4cl3 AI Solutions · "Where Consciousness Meets Code"*
